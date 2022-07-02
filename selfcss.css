@@ -2,5 +2,7 @@
     text-decoration: none;
     
   }
-  
+  .edge{
+    border:solid 5px white;
+  }
 
