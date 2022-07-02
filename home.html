@@ -37,8 +37,8 @@
 </head>
 
 <body>
-  <!-- container -->
-  <div class="vstack"  >
+  <!-- container นอกสุด -->
+  <div class="vstack bg-dark" style = "width:100vw;height:100vh">
     <!-- Navbar -->
     <div class  = "bg-black ">
       <div class = " d-flex flex-start d-grid gap-4 bg-gradient" style = "font-size:28px;font-family: 'Rubik', sans-serif;">
@@ -56,29 +56,44 @@
     
 
     <!-- Profile -->
-    <div class="d-flex flex-column justify-content-end" style="text-align:center">
+    <div class="d-flex flex-column justify-content-end " style="text-align:center;padding-top:50px;">
       <!-- image -->
-      <div class="bg-dark" style="text-align: center;">
-        <img class="rounded-circle" src="/pictures/self-face.jpg" alt="image" width="200" height="200">
+      <div class="bg-dark " style="text-align: center;">
+        <img class="rounded-circle border border-4 border-warning" src="/pictures/self-face.jpg" alt="image" width="200" height="200">
       </div>
       <!-- personal -->
       <div class="bg-dark" style="font-family: 'Rubik', sans-serif;font-size: 20px;color:#ff8000">
         <h1 style="text-align: center;">Peera Aronrat</h1>
         <p>I am a university student who interested in coding.Currently studying computer engineering.</p>
 
-        <div class = "d-flex flex-row justify-content-center  bg-dark d-grid gap-5">
+        <div class = "d-flex flex-row justify-content-center  bg-dark  gap-5">
           <!-- pro skill -->
-          <div class="d-flex flex-row d-grid gap-4">
+          <div class="d-flex flex-row  gap-4">
             <div >
               <img src="/pictures/programminglaguagepic.png" alt="image" style="border-radius:30%">
             </div>
   
             <div  style="color:#FAC213;word-spacing: 30px;">
               <p>PROGRAMMING SKILLS</p>
-              <p>•JAVA Intermediate</p>
-              <p>•C++ Intermediate</p>
-              <p>•HTML/CSS Intermediate</p>
-              <p>•Git Intermediate</p>
+              <div class = "d-flex flex-row gap-5">
+                <div>
+                  <p>JAVA</p>
+                  <p>C++</p>
+                  <p>HTML/CSS</p>
+                  <p>PYTHON</p>
+                  <p>C#</p>
+                </div>
+                <div>
+                  <p>Intermediate</p>
+                  <p>Intermediate</p>
+                  <p>Intermediate</p>
+                  <p>Intermediate</p>
+                  <p>Beginner</p>
+                </div>
+
+              </div>
+              
+              
   
             </div>
   
@@ -90,7 +105,7 @@
               <img src="/pictures/hobbypic.jpg" alt="image" height = "200px" width = "200px" style = "border-radius: 30%;">
             </div>
             <div >
-              <p>Hobby</p>
+              <p>HOBBY</p>
               <p>Running & Jogging </p>
               <p>Reading comic book</p>
               <p>Sleeping</p>
